@@ -18,6 +18,6 @@ En la carpeta firestore_st se encuentra un archivo de settings. En ese archivo d
 - uvicorn api:app --reload para correr el servidor
 
 ### endpoints
-/docs - documentacion de la api pedida
-/api/borrows - obtiene los ultimos 20 prestamos, los guarda en firestore y devuelte la cuenta de cuantos prestamos se han almacenado
-/api/borrows/obtain/{amount} - endpoints adicional para obtener un numero de prestamos guardados en firestore
+- /docs - documentacion de la api pedida
+- /api/borrows - obtiene los ultimos 20 prestamos, los guarda en firestore y devuelte la cuenta de cuantos prestamos se han almacenado
+- /api/borrows/obtain/{amount} - endpoints adicional para obtener un numero de prestamos guardados en firestore
