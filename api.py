@@ -49,6 +49,7 @@ async def borrows_api_obtain(amount: int):
 async def custom_swagger_ui_html():
     return get_swagger_ui_html(openapi_url="/openapi.json", title="API documentation")
 
+
 @app.get("/openapi.json", include_in_schema=False)
 async def get_open_api_endpoint():
     return get_openapi(title="API documentation", version="1.0.0", routes=app.routes)
